@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    background-color: rgb(144, 199, 199);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 390px;
+    width: 500px;
+    background-color: rgb(227, 218, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.container .up{
+    height: 10%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0;
+}
+.up h4{
+    font-size: 15px;
+}
+.up button{
+    background-color: rgb(128, 135, 135);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+}
+
+.down{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.down .down1{
+    height: 80%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.down1 .lft
+{
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
+    border-right: 2px solid gray;
+}
+
+.lft input{
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: gray;
+    border: 2px solid gray;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+}
+
+.down1 .rgt{
+    width: 50%;
+    /* background-color: rgb(0, 4, 255); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.rgt input{
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: gray;
+    border: 2px solid gray;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+}
+
+.down2 button{
+  /* margin-bottom: 40px; */
+    padding: 10px 50px;
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
